@@ -130,35 +130,35 @@ p {
 
 
 .project-links a {
-  text-decoration: none; /* Remove underline from links */
+  text-decoration: none;
   padding: 10px 20px;
-  border-radius: 12px; /* Add border radius for rounded corners */
+  border-radius: 12px; 
   margin: 0 10px;
   font-weight: bold;
   display: inline-block;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
-/* Live Demo Button */
+
 .project-links a:first-child {
-  background-color: #4e73df; /* Blue color for Live Demo */
+  background-color: #4e73df; 
   color: white;
 }
 
 .project-links a:first-child:hover {
-  transform: scale(1.05); /* Slightly enlarge the button */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  transform: scale(1.05); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
-/* Code Button */
+
 .project-links a:last-child {
-  background-color: #28a745; /* Green color for Code */
+  background-color: #28a745; 
   color: white;
 }
 
 .project-links a:last-child:hover {
-  transform: scale(1.05); /* Slightly enlarge the button */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  transform: scale(1.05); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -171,57 +171,57 @@ p {
 
 
 .project-links a {
-  text-decoration: none; /* Remove underline from links */
+  text-decoration: none; 
   padding: 10px 20px;
-  border-radius: 12px; /* Rounded corners */
+  border-radius: 12px; 
   margin: 0 10px;
   font-weight: bold;
   display: inline-block;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
-/* Live Demo Button */
+
 .project-links a:first-child {
-  background-color: #4e73df; /* Blue color for Live Demo */
+  background-color: #4e73df; 
   color: white;
 }
 
 .project-links a:first-child:hover {
-  transform: scale(1.05); /* Slightly enlarge the button */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Box shadow on hover */
+  transform: scale(1.05); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 /* Code Button */
 .project-links a:last-child {
-  background-color: #28a745; /* Green color for Code */
+  background-color: #28a745; 
   color: white;
 }
 
 .project-links a:last-child:hover {
-  transform: scale(1.05); /* Slightly enlarge the button */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Box shadow on hover */
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 
 
 .project-card {
-  background-color: #2a2a2a; /* Dark background for each card */
+  background-color: #2a2a2a; 
   padding: 1.5rem;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Default shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
-  border: 2px solid #4e73df; /* Blue border for the card */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  border: 2px solid #4e73df; 
 }
 
 .project-card:hover {
-  transform: translateY(-10px); /* Slightly lift the card on hover */
-  box-shadow: 0 0 15px rgba(72, 61, 255, 0.7); /* Glowing effect on hover */
+  transform: translateY(-10px); 
+  box-shadow: 0 0 15px rgba(72, 61, 255, 0.7); 
 }
 
-/* Tech stack pill buttons */
+
 .project-card .tech span {
-  background-color: #8e44ad; /* Purple background */
+  background-color: #8e44ad; 
   color: white;
   padding: 8px 16px;
   border-radius: 20px;
@@ -231,18 +231,18 @@ p {
 }
 
 .project-card .tech span:hover {
-  background-color: #9b59b6; /* Darker purple on hover */
+  background-color: #9b59b6; 
 }
 
-/* Live Demo and Code buttons */
+
 .project-links a:first-child {
   background-color: #4e73df;
   color: white;
 }
 
 .project-links a:first-child:hover {
-  transform: scale(1.05); /* Slightly enlarge the button */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  transform: scale(1.05); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 .project-links a:last-child {
@@ -251,6 +251,6 @@ p {
 }
 
 .project-links a:last-child:hover {
-  transform: scale(1.05); /* Slightly enlarge the button */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  transform: scale(1.05); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }

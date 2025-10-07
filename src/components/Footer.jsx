@@ -9,7 +9,7 @@ import "./Footer.css";
 const Footer = () => (
   <footer className="footer-section">
     <div className="footer-wrapper">
-      {/* Left Column - Portfolio */}
+      
       <div className="footer-col footer-brand">
         <h2 className="footer-title">PORTFOLIO</h2>
         <p className="footer-desc">

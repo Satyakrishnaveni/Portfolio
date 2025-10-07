@@ -54,7 +54,7 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* <h4>Follow Me</h4> */}
+         
           <h4 style={{ color: "#6EE7B7" }}>Follow Me</h4>
 
           <div className="contact-socials">
