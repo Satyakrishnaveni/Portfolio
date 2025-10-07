@@ -1,0 +1,256 @@
+.projects-section {
+  padding: 3rem 0;
+  background-color: #1a1a1a; 
+  color: white;
+  text-align: center; 
+}
+
+.projects-content {
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  
+  background: linear-gradient(90deg, #2410df, #05eeda);
+  -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #ddd;
+  margin-bottom: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Responsive grid */
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: #2a2a2a; 
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  border: 2px solid #4e73df; 
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  color: #4e73df; 
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #ddd; 
+}
+
+.project-card .tech {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;  
+  flex-wrap: wrap;
+  gap: 10px;  
+}
+
+.project-card .tech span { 
+  color: white;  
+  padding: 8px 16px;  
+  border-radius: 20px;  
+  font-size: 0.9rem;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.project-card .tech span:hover {
+  background-color: #9b59b6;  
+}
+
+.project-links a {
+  text-decoration: none;
+  background-color: #4e73df; 
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.project-links a:hover {
+  background-color: #2a5dcb; 
+}
+
+.github-btn {
+  background-color: #52a3c9;
+  color: white;
+  padding: 12px 25px;        
+  border-radius: 10px;        
+  font-size: 1rem;            
+  margin-top: 2rem;
+  display: inline-block;     
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 0.3s;
+  text-decoration: none;     
+}
+
+
+.github-btn:hover {
+  background-color: #4e73df; 
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+.project-links a {
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px 20px;
+  border-radius: 12px; /* Add border radius for rounded corners */
+  margin: 0 10px;
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth hover */
+}
+
+/* Live Demo Button */
+.project-links a:first-child {
+  background-color: #4e73df; /* Blue color for Live Demo */
+  color: white;
+}
+
+.project-links a:first-child:hover {
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+/* Code Button */
+.project-links a:last-child {
+  background-color: #28a745; /* Green color for Code */
+  color: white;
+}
+
+.project-links a:last-child:hover {
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+
+
+
+
+
+
+
+
+
+.project-links a {
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px 20px;
+  border-radius: 12px; /* Rounded corners */
+  margin: 0 10px;
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Live Demo Button */
+.project-links a:first-child {
+  background-color: #4e73df; /* Blue color for Live Demo */
+  color: white;
+}
+
+.project-links a:first-child:hover {
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Box shadow on hover */
+}
+
+/* Code Button */
+.project-links a:last-child {
+  background-color: #28a745; /* Green color for Code */
+  color: white;
+}
+
+.project-links a:last-child:hover {
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Box shadow on hover */
+}
+
+
+
+.project-card {
+  background-color: #2a2a2a; /* Dark background for each card */
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Default shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  border: 2px solid #4e73df; /* Blue border for the card */
+}
+
+.project-card:hover {
+  transform: translateY(-10px); /* Slightly lift the card on hover */
+  box-shadow: 0 0 15px rgba(72, 61, 255, 0.7); /* Glowing effect on hover */
+}
+
+/* Tech stack pill buttons */
+.project-card .tech span {
+  background-color: #8e44ad; /* Purple background */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.project-card .tech span:hover {
+  background-color: #9b59b6; /* Darker purple on hover */
+}
+
+/* Live Demo and Code buttons */
+.project-links a:first-child {
+  background-color: #4e73df;
+  color: white;
+}
+
+.project-links a:first-child:hover {
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.project-links a:last-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.project-links a:last-child:hover {
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}

@@ -1,0 +1,185 @@
+
+.footer-section {
+  width: 100%;
+  background: #151517;
+  color: #aaa;
+  padding-top: 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 32px;
+  gap: 50px;
+}
+
+
+.footer-col.footer-brand {
+  flex: 1 1 0;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 8px;
+}
+
+.footer-title {
+  font-size: 2rem;
+  color: #2d8eff;
+  font-family: 'Fira Mono','Consolas',monospace;
+  letter-spacing: .5px;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 0;
+}
+
+.footer-desc {
+  font-size: 1.08rem;
+  color: #ccc;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+
+.footer-socials {
+  display: flex;
+  gap: 18px;
+  margin-top: 8px;
+}
+
+.footer-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.13);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  transition: transform 0.3s, background 0.24s, color 0.24s, border-color 0.24s;
+}
+
+
+.footer-socials a:hover {
+  transform: scale(1.2);
+  background: #2d8eff;
+  border-color: #2d8eff;
+  color: #fff;
+}
+
+
+.github-icon {
+  color: #fff; 
+}
+
+.linkedin-icon {
+  color: #0A66C2; 
+}
+
+.twitter-icon {
+  color: #1DA1F2; 
+}
+
+.email-icon {
+  color: #D44638; 
+}
+
+
+.footer-col.footer-center {
+  flex: 1 1 0;
+  min-width: 220px;
+}
+
+.footer-heading {
+  color: #2d8eff;
+  margin-bottom: 11px;
+  font-family: 'Fira Mono','Consolas',monospace;
+  font-weight: bold;
+  font-size: 1.15rem;
+  letter-spacing: .5px;
+  text-align: left;
+}
+
+.footer-links-columns {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-links-columns ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links-columns li {
+  font-size: 1.04rem;
+  margin-bottom: 10px;
+  color: #bbb;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.footer-links-columns li:hover {
+  color: #2d8eff;
+}
+
+
+.footer-col.footer-right {
+  flex: 1 1 0;
+  min-width: 220px;
+  text-align: left;
+}
+
+.footer-contact p {
+  color: #bbb;
+  margin-bottom: 6px;
+  font-size: 1.03rem;
+}
+
+
+.footer-bottom {
+  border-top: 1px solid #232327;
+  padding: 16px 34px 8px 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  background: #151517;
+}
+
+.footer-bottom p {
+  color: #aaa;
+  margin: 0;
+  font-size: 1rem;
+}
+
+
+.footer-scroll-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.footer-scroll-top svg {
+  display: block;
+}
+
+
+@media (max-width: 900px) {
+  .footer-wrapper {
+    flex-direction: column;
+    gap: 38px;
+    align-items: flex-start;
+  }
+
+  .footer-links-columns {
+    gap: 20px;
+  }
+}
