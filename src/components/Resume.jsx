@@ -16,10 +16,8 @@ const Resume = () => {
           </a>
         </div>
 
-        {/* Resume Layout */}
         <div className="resume-layout">
 
-          {/* Work Experience */}
           <div className="resume-left">
             <h2 className="section-title">Work Experience</h2>
             <div className="resume-card experience-card">
@@ -50,7 +48,7 @@ const Resume = () => {
             </div>
           </div>
 
-          {/* Education & Certifications */}
+          
           <div className="resume-right">
             <h2 className="section-title">Education & Certifications</h2>
             <div className="resume-card education-card">
@@ -85,13 +83,12 @@ const Resume = () => {
           </div>
         </div>
 
-        {/* Contact Section */}
+      
         <div className="contact-box">
           <h2>Ready to Work Together?</h2>
           <p>I'm always open to discussing new opportunities and exciting projects.</p>
           <div className="contact-buttons">
-            {/* <a href="/resume.pdf" download className="resume-btn">Download Resume</a>
-            <a href="#contact" className="contact-btn">Get In Touch</a> */}
+  
           </div>
         </div>
 
