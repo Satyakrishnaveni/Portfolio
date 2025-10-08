@@ -2,7 +2,7 @@
 import React from "react";
 import { FaReact, FaNodeJs, FaDatabase, FaGitAlt, FaPython, FaHtml5, FaCss3Alt, FaJava } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss, SiPostman, SiExpress, SiTypescript } from "react-icons/si";
-import "./Skills.css";
+import "./skills.css";
 
 const skills = [
   { name: "React JS", icon: <FaReact color="#61DAFB" /> },
